@@ -71,7 +71,8 @@ if(isset($_POST['user_contact']))
 						scrollwheel:false,
 						
 						// #== The latitude and longitude to center the map (always required)
-						center: new google.maps.LatLng(23.617928, 90.4864331), // New York
+						// 23.0225907,72.5089073
+						center: new google.maps.LatLng(23.0225907, 72.5089073), // New York
 						
 						// #== How you would like to style the map. 
 						// #== This is where you would paste any style found on Snazzy Maps.
@@ -87,7 +88,7 @@ if(isset($_POST['user_contact']))
 					
 					// #== Let's also add a marker while we're at it
 					
-				var marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(23.617928, 90.4864331)});infowindow = new google.maps.InfoWindow({content:"<b>https://aamroni.net</b><br/>BSCIC-1420<br/> Narayanganj" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+				var marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(23.0225907, 72.5089073)});infowindow = new google.maps.InfoWindow({content:"<b>Vectort, Telemetrics tech </b>" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
 			</script> 
 			<!--=*= GOOGLE MAP CONTENT END =*=-->
 			
@@ -122,23 +123,18 @@ if(isset($_POST['user_contact']))
 				<div class="contact-info">
 					<div>
 						<i class="icon-phone"></i>
-						<p><a href="tel:">880 1316 440504</a></p>
+						<p><a href="tel:">000 000 00000</a></p>
 						<p>Cell Number</p>
 					</div>
 					<div>
 						<i class="icon-mobile"></i>
-						<p><a href="tel:">880 1316 440497</a></p>
+						<p><a href="tel:">000 000 00000</a></p>
 						<p>Home Number</p>
 					</div>
 					<div>
 						<i class="icon-mail-alt"></i>
-						<p><a href="mailto:#">md.aamroni@gmail.com</a></p>
-						<p><a href="mailto:#">md.aamroni@hotmail.com</a></p>
-					</div>
-					<div>
-						<i class="icon-skype"></i>
-						<p><a href="skype:live:.cid.5ed7daebee5e7820">md.aamroni</a></p>
-						<p>FULL STACK WEB DEVELOPER</p>
+						<p><a href="mailto:#">info@telemetrics.tech</a></p>
+						<p><a href="mailto:#">info@telemetrics.tech</a></p>
 					</div>
 				</div>
 			</div>

@@ -58,7 +58,7 @@
 								<div class="widget">
 									<ul class="contact-info">
 										<li><span class="contact-info-label">Address:</span>India</li>
-										<li><span class="contact-info-label">Phone:</span>Toll Free <a href="tel:">(+880) 0000-000000</a></li>
+										<li><span class="contact-info-label">Phone:</span>Toll Free <a href="tel:">(+91) 0000-000000</a></li>
 										<li><span class="contact-info-label">Email:</span> <a href="mailto:mail@example.com">info@telemetrics.tech</a></li>
 										<li><span class="contact-info-label">Working Days/Hours:</span>Mon - Sun / 9:00AM - 8:00PM</li>
 									</ul>
